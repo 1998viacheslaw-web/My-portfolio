@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#hero-describe {
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    grid-column: 1/2;
+    color: white;
+}
+
+#hero-describe h2 {
+    color: blue;
+}
+
+#hero-describe p {
+    overflow: hidden;
+}
+
+#hero-describe a {
+    text-decoration: none;
+}
+
+#my-works {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    background-color: #8C00FF;
+    cursor: pointer;
+}
+
+#my-contacts {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.my_image {
+    margin: 0;
+    padding: 0;
+    grid-column: 2/3;
+}
+
+#about {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:80px 0;
+}
+
+.starting {
+    grid-column:1/2;
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+.starting p {
+    color:blue;
+}
+
+
+
+.describe1 {
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    color: white;
+    grid-column: 2/3;
+}
+
+.describe2 {
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    color: white;
+    grid-column: 3/4;
+}
+
+
+#skills {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:80px 0;
+}
+
+.my-skills {
+    grid-column:1/2;
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+.my-skills p {
+    color:blue;
+}
+
+.technologies {
+    grid-column:2/3;
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+.technologies1 {
+    grid-column:3/4;
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 20px 0;
+    color: #0d1117;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover; 
+}
+
+#projects {
+     background-color: black;
+     padding:80px 0;
+     text-align:center;
+}
+
+#projects h2 {
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contacts {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:80px 0;
+}
+
+.precontacts {
+    grid-column:1/2;
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    color:white;
+}
+
+.precontacts p {
+    color:blue;
+}
+
+.email {
+    grid-column: 2/3;
+}
+
+.telegram {
+    grid-column: 3/4;
+}
+
+footer {
+    background-color: #0d1117;
+    padding: 20px 40px;
+    border-top: 1px solid #1f2937;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.footer-name {
+    color: white;
+    font-weight: bold;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-nav a {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: white;
+}
+
+.footer-nav a.active {
+    color: white;
+    font-weight: bold;
+}
+
+.scroll-top {
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.scroll-top:hover {
+    background-color: #374151;
+}
